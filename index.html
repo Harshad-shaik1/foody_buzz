@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foody Buzz — Luxury Dining in Hyderabad</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Lightbox CSS (for gallery) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-gold fw-bold" href="#home">Foody Buzz</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#reservations">Reservations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME-->
+  <section
+    id="home"
+    class="hero text-white text-center position-relative"
+  >
+    <div class="overlay"></div>
+    <div class="bg-dark bg-opacity-50 p-5 rounded hero-inner">
+      <h1 class="display-3 fw-bold text-gold">Welcome to Foody Buzz</h1>
+      <p class="lead text-light">Luxury Dining Experience in Hyderabad</p>
+      <a href="#reservations" class="btn btn-warning btn-lg m-2">Book a Table</a>
+      <a href="#menu" class="btn btn-outline-light btn-lg m-2">Order Online</a>
+    </div>
+  </section>
+
+  <!-- Chef’s Specials -->
+  <section class="py-5 text-center bg-dark text-light">
+    <div class="container">
+      <h2 class="fw-bold text-gold mb-4">Chef’s Specials</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card bg-dark border-light shadow-lg">
+            <img src="images/sign.jpg" class="card-img-top" alt="Dish 1">
+            <div class="card-body">
+              <h5 class="card-title text-gold">Grilled Salmon</h5>
+              <p class="card-text">Traditional South Indian breakfast served hot and fresh.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-dark border-light shadow-lg">
+            <img src="images/sig.jpg" class="card-img-top" alt="Dish 2">
+            <div class="card-body">
+              <h5 class="card-title text-gold">Lobster tail on sautéed vegetables</h5>
+              <p class="card-text">Our signature Hyderabadi-style biryani with authentic spices.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-dark border-light shadow-lg">
+            <img src="images/dish.jpg" class="card-img-top" alt="Dish 3">
+            <div class="card-body">
+              <h5 class="card-title text-gold">Grilled Chicken</h5>
+              <p class="card-text">A royal combination of flavors and aromas from Indian cuisine.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= ABOUT ============= -->
+  <section id="about">
+
+    <!-- Teaser -->
+    <section class="py-5 bg-light text-dark">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2 class="fw-bold">Our Story</h2>
+            <p class="text-muted">
+              At Foody Buzz, we bring together the rich flavors of India with a touch of luxury.
+              From authentic biryanis to delightful desserts, our chefs craft every dish with passion.
+            </p>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="images/chef.jpg" class="img-fluid rounded shadow-lg" alt="Restaurant Interior">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About hero -->
+    <section class="hero-about text-white d-flex align-items-center justify-content-center text-center">
+      <div>
+        <h1 class="display-4 fw-bold text-gold">Our Story</h1>
+        <p class="lead">A Journey of Taste, Luxury &amp; Authentic Flavors</p>
+      </div>
+    </section>
+
+    <!-- About content -->
+    <section class="lux-section container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4">
+          <img src="images/int.jpg" class="img-fluid shadow-lux" alt="Foody Buzz Interior">
+        </div>
+        <div class="col-md-6">
+          <h2 class="text-gold mb-3">Welcome to Foody Buzz</h2>
+          <p>
+            Situated in the heart of Hyderabad, <strong>Foody Buzz</strong> blends fine dining with a
+            luxurious ambiance—offering a truly premium culinary experience.
+          </p>
+          <p>
+            Our chefs bring traditional Indian recipes to life with modern presentation.
+            Whether it’s a family dinner, celebration, or corporate event, Foody Buzz promises
+            an unforgettable experience.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chef -->
+    <section class="py-5 text-center" style="background: #111;">
+      <div class="container">
+        <h2 class="text-gold mb-4">Meet Our Master Chef</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <img src="images/chef.jpg" alt="Chef Harshad" class="img-fluid rounded-circle shadow mb-3"
+                 style="width: 220px; height: 220px; object-fit: cover;">
+            <h4 class="text-white">Chef Harshad Shaik</h4>
+            <p class="text-muted">
+              With over 15 years of global culinary experience, Chef Harshad blends Indian, Arabic,
+              and Continental flavors to perfection.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission -->
+    <section class="lux-section container text-center">
+      <h2 class="text-gold mb-3">Our Mission</h2>
+      <p class="lead text-muted mb-5">
+        To create a luxurious space where food, ambiance, and service come together to deliver unforgettable dining.
+      </p>
+
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <img src="images/amb.jpg" alt="Ambience" class="img-fluid shadow-lux">
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <p class="text-muted">
+           Soft, warm lighting sets the tone the moment you walk in, gently highlighting every detail of the handcrafted décor. Each element — from the textures to the colors — is designed to create a sense of refined comfort. The atmosphere feels intimate yet sophisticated, making every guest feel welcomed and valued. Subtle ambient music adds a calming rhythm, elevating the dining experience without overwhelming the senses. Together, these elements transform each meal into a memorable moment. It’s not just a restaurant — it’s an elegant escape where every detail works in harmony to create the perfect dining mood.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </section>
+
+  <!-- ============= MENU ============= -->
+  <section id="menu">
+
+    <!-- Menu hero -->
+    <section class="hero-menu text-white text-center d-flex align-items-center justify-content-center">
+      <div>
+        <h1 class="display-5 fw-bold">Our Menu</h1>
+        <p class="lead">Select your favorites and order instantly!</p>
+      </div>
+    </section>
+
+    <!-- Category filter -->
+    <div class="container text-center my-5">
+      <div class="btn-group flex-wrap">
+        <button class="btn btn-warning m-1" onclick="showCategory('tiffin')">Tiffin</button>
+        <button class="btn btn-warning m-1" onclick="showCategory('biryani')">Biryani</button>
+        <button class="btn btn-warning m-1" onclick="showCategory('beverages')">Beverages</button>
+        <button class="btn btn-warning m-1" onclick="showCategory('icecream')">Ice Creams</button>
+        <button class="btn btn-warning m-1" onclick="showCategory('milkshakes')">Milkshakes</button>
+        <button class="btn btn-warning m-1" onclick="showCategory('desserts')">Desserts</button>
+      </div>
+    </div>
+
+    <!-- Menu items container -->
+    <section class="container pb-5">
+      <div class="row" id="menu-items"></div>
+    </section>
+
+  </section>
+
+  <!-- Floating cart button -->
+  <button class="btn btn-warning rounded-circle p-3 shadow position-fixed"
+          style="bottom:20px;right:25px;z-index:99999;"
+          onclick="openCart()">
+    <i class="bi bi-cart4"></i>
+    <span id="cart-count" class="badge bg-dark">0</span>
+  </button>
+
+  <!-- Cart sidebar -->
+  <div id="cartSidebar">
+    <div class="cart-header">
+      <h4>Your Cart</h4>
+      <button onclick="closeCart()" class="close-btn">&times;</button>
+    </div>
+
+    <div id="sideCartItems" class="cart-body"></div>
+
+    <div class="cart-footer">
+      <h5>Total: ₹<span id="sideCartTotal">0</span></h5>
+      <!-- Hook this to JS later to send order to backend.php (action=order) -->
+      <button class="btn btn-warning w-100 mt-2" onclick="openCheckout()">Checkout</button>
+    </div>
+  </div>
+
+  <!-- Overlay -->
+  <div id="cartOverlay" onclick="closeCart()"></div>
+
+  <!-- Popup -->
+  <div id="addedPopup">
+    <span id="popup-text"></span>
+  </div>
+
+  <!-- ============= GALLERY ============= -->
+  <section id="gallery">
+
+    <!-- Hero -->
+    <section class="hero-gallery text-white text-center d-flex align-items-center justify-content-center">
+      <div>
+        <h1 class="display-5 fw-bold">Our Gallery</h1>
+        <p class="lead">Delicious moments from Foody Buzz</p>
+      </div>
+    </section>
+
+    <!-- Gallery grid -->
+    <section class="container py-5">
+      <h2 class="text-center mb-4 text-gold">Explore Our Dishes &amp; Ambiance</h2>
+      <div class="row g-4">
+        <div class="col-md-4 col-sm-6">
+          <a href="images/butter_chicken.jpg" data-lightbox="foodybuzz-gallery" data-title="Butter Chicken">
+            <img src="images/butter_chicken.jpg" class="img-fluid rounded shadow gallery-img" alt="Butter Chicken">
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <a href="images/gallery2.jpg" data-lightbox="foodybuzz-gallery" data-title="Paneer Tikka">
+            <img src="images/gallery2.jpg" class="img-fluid rounded shadow gallery-img" alt="Paneer Tikka">
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <a href="images/dish3.jpg" data-lightbox="foodybuzz-gallery" data-title="Dining Ambiance">
+            <img src="images/dish3.jpg" class="img-fluid rounded shadow gallery-img" alt="Dining Ambiance">
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <a href="images/cheesecake.jpg" data-lightbox="foodybuzz-gallery" data-title="Dessert Platter">
+            <img src="images/cheesecake.jpg" class="img-fluid rounded shadow gallery-img" alt="Dessert Platter">
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <a href="images/restt.jpg" data-lightbox="foodybuzz-gallery" data-title="Luxury Seating Area">
+            <img src="images/restt.jpg" class="img-fluid rounded shadow gallery-img" alt="Luxury Seating Area">
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <a href="images/Chef_dish.jpg" data-lightbox="foodybuzz-gallery" data-title="Chef’s Special Dish">
+            <img src="images/Chef_dish.jpg" class="img-fluid rounded shadow gallery-img" alt="Chef’s Special Dish">
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </section>
+
+  <!-- ============= RESERVATIONS ============= -->
+  <section id="reservations">
+
+    <!-- Hero Section -->
+    <section class="reserve-hero text-white">
+      <div>
+        <h1 class="display-4 fw-bold text-gold">Reserve Your Table</h1>
+        <p class="lead">Book an unforgettable luxury dining experience</p>
+      </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="container py-5">
+      <div class="row g-5">
+
+        <!-- Image Side -->
+        <div class="col-md-6">
+          <img src="images/reserved.jpeg" class="img-fluid rounded shadow-lux" alt="Dining Table">
+        </div>
+
+        <!-- Form Side -->
+        <div class="col-md-6">
+          <div class="lux-card">
+            <h2 class="text-gold mb-4 text-center">Book a Table</h2>
+
+            <form action="backend.php" method="POST">
+              <div class="mb-3">
+                <label class="form-label text-gold">Your Name</label>
+                <input type="text" name="name" class="form-control lux-input" required>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label text-gold">Phone Number</label>
+                <input type="text" name="phone" class="form-control lux-input" required>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label text-gold">Email (optional)</label>
+                <input type="email" name="email" class="form-control lux-input">
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label text-gold">Number of Guests</label>
+                <input type="number" name="guests" class="form-control lux-input" min="1" max="15" required>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label text-gold">Date</label>
+                <input type="date" name="date" class="form-control lux-input" required>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label text-gold">Time</label>
+                <input type="time" name="time" class="form-control lux-input" required>
+              </div>
+
+              <button type="submit" class="btn btn-warning w-100 fw-bold mt-3">
+                Confirm Reservation
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </section>
+
+  <!-- ============= CONTACT ============= -->
+  <section id="contact">
+
+    <!-- Hero Section -->
+    <section class="hero-contact text-white d-flex align-items-center justify-content-center text-center">
+      <div>
+        <h1 class="display-5 fw-bold text-gold">Contact Us</h1>
+        <p class="lead">We’re here to help you experience the best dining in Hyderabad.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container py-5">
+      <div class="row g-5">
+
+        <!-- Contact Details -->
+        <div class="col-lg-4">
+          <div class="info-box mb-4">
+            <h4 class="text-gold mb-3"><i class="bi bi-geo-alt"></i> Location</h4>
+            <p>
+              <a href="https://www.google.com/maps/place/Banjara+Hills+Hyderabad"
+                 target="_blank"
+                 class="contact-link">
+                Foody Buzz, Banjara Hills, Hyderabad
+              </a>
+            </p>
+          </div>
+
+          <div class="info-box mb-4">
+            <h4 class="text-gold mb-3"><i class="bi bi-telephone"></i> Phone</h4>
+            <p><a href="tel:+918977902300" class="contact-link">+91 89779 02300</a></p>
+          </div>
+
+          <div class="info-box">
+            <h4 class="text-gold mb-3"><i class="bi bi-envelope"></i> Email</h4>
+            <p>
+              <a href="mailto:harshadshaik400@gmail.com" class="contact-link">
+                harshadshaik400@gmail.com
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-8">
+          <div class="contact-card">
+            <h3 class="text-center text-gold mb-4">Send Us a Message</h3>
+
+            <form>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <input class="form-control lux-input" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6">
+                  <input class="form-control lux-input" placeholder="Phone Number" required>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <input class="form-control lux-input" placeholder="Email (optional)">
+              </div>
+
+              <div class="mb-3">
+                <textarea class="form-control lux-input" rows="4" placeholder="Your Message"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-warning w-100 fw-bold">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Google Map -->
+      <div class="mt-5">
+        <h3 class="text-center text-gold mb-3">Find Us on Google Maps</h3>
+
+        <div class="map-container mt-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.8050845740136!2d78.44237037486927!3d17.421927903497974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb972d7f1a09e3%3A0xebaec1ade40c9e6!2sBanjara%20Hills%2C%20Hyderabad!5e0!3m2!1sen!2sin!4v1709800000000"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+
+    </section>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-light py-3">
+    <p class="mb-0">&copy; 2025 Foody Buzz | Luxury Dining, Hyderabad</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+  <!-- Your custom JS for menu/cart (optional) -->
+  <script src="script.js"></script>
+</body>
+</html>
